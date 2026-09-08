@@ -69,7 +69,7 @@ export default function Contact() {
     }
     setStatus("sending");
     const message = [
-      `Olá! Pedido de orçamento pelo site da P1LED:`,
+      `Olá! Pedido de orçamento pelo site da LUMENIX:`,
       `• Nome: ${form.nome}`,
       form.empresa ? `• Empresa: ${form.empresa}` : "",
       form.contato ? `• Contato: ${form.contato}` : "",

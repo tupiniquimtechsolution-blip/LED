@@ -18,7 +18,7 @@ export default function Footer() {
       {/* wordmark gigante */}
       <div className="pointer-events-none overflow-hidden px-2 pt-10" aria-hidden>
         <p className="text-outline select-none whitespace-nowrap text-center font-display text-[22vw] font-black leading-[0.8] tracking-tight opacity-70 lg:text-[16rem]">
-          P1LED
+          LUMENIX
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
               href={business.instagram}
               target="_blank"
               rel="noreferrer"
-              aria-label="Instagram da P1LED"
+              aria-label="Instagram da LUMENIX"
               className="flex h-10 w-10 items-center justify-center border border-line text-dim transition-all duration-300 hover:-translate-y-1 hover:border-volt-400 hover:text-volt-400"
             >
               <svg viewBox="0 0 24 24" className="h-4.5 w-4.5 fill-current" aria-hidden>
@@ -45,7 +45,7 @@ export default function Footer() {
               href={waLink(DEFAULT_WA_MESSAGE)}
               target="_blank"
               rel="noreferrer"
-              aria-label="WhatsApp da P1LED"
+              aria-label="WhatsApp da LUMENIX"
               className="flex h-10 w-10 items-center justify-center border border-line text-dim transition-all duration-300 hover:-translate-y-1 hover:border-ember-400 hover:text-ember-400"
             >
               <svg viewBox="0 0 24 24" className="h-4.5 w-4.5 fill-current" aria-hidden>
@@ -56,7 +56,7 @@ export default function Footer() {
               href={business.linkedin}
               target="_blank"
               rel="noreferrer"
-              aria-label="LinkedIn da P1LED"
+              aria-label="LinkedIn da LUMENIX"
               className="flex h-10 w-10 items-center justify-center border border-line text-dim transition-all duration-300 hover:-translate-y-1 hover:border-volt-400 hover:text-volt-400"
             >
               <svg viewBox="0 0 24 24" className="h-4.5 w-4.5 fill-current" aria-hidden>
@@ -162,11 +162,11 @@ export default function Footer() {
 
       <div className="border-t border-line/70">
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-x-6 gap-y-2 px-5 py-5 font-mono text-[0.65rem] uppercase tracking-[0.18em] text-faint sm:px-8">
-          <span>© {new Date().getFullYear()} P1LED — desde 2007</span>
+          <span>© {new Date().getFullYear()} LUMENIX — desde 2012</span>
           <span className="hidden h-3 w-px bg-line sm:block" />
           <span>
             Site demonstrativo de portfólio — imagens representativas (TEMP_REPLACE_ME) sujeitas à
-            aprovação final da P1LED
+            aprovação final da LUMENIX
           </span>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

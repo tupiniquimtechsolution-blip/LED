@@ -10,7 +10,7 @@ const TYPE_COLOR: Record<string, string> = {
   BASTIDORES: "text-dim border-line",
 };
 
-/** P1LED EM AÇÃO — mural no ritmo do feed oficial, sem depender da API do Instagram. */
+/** LUMENIX EM AÇÃO — mural no ritmo do feed oficial, sem depender da API do Instagram. */
 export default function SocialWall() {
   return (
     <section id="social" className="relative z-10 scroll-mt-20">
@@ -19,7 +19,7 @@ export default function SocialWall() {
           <Reveal>
             <SectionTag index="08" label="Mural social" tone="ember" />
             <h2 className="mt-5 font-display text-3xl font-extrabold uppercase tracking-tight text-ink sm:text-5xl">
-              P1LED <span className="text-ember-400">em ação</span>
+              LUMENIX <span className="text-ember-400">em ação</span>
             </h2>
           </Reveal>
           <Reveal delay={150}>
@@ -80,7 +80,7 @@ export default function SocialWall() {
         </div>
 
         <p className="mt-6 text-center font-mono text-[0.62rem] uppercase tracking-[0.24em] text-faint">
-          Conteúdo representativo do dia a dia P1LED — o feed oficial vive em{" "}
+          Conteúdo representativo do dia a dia LUMENIX — o feed oficial vive em{" "}
           <a href={business.instagram} target="_blank" rel="noreferrer" className="text-volt-400 hover:underline">
             instagram.com/p1led
           </a>

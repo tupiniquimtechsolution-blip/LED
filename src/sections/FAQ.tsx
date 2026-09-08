@@ -18,14 +18,14 @@ const FAQS = [
   },
   {
     q: "É melhor comprar ou alugar painel de LED?",
-    a: "Uso frequente pede compra: lojas, shoppings e quem monetiza o painel vendendo espaço publicitário. Uso pontual pede locação: feiras, shows e eventos. A P1LED atende os dois caminhos com o mesmo padrão de instalação.",
+    a: "Uso frequente pede compra: lojas, shoppings e quem monetiza o painel vendendo espaço publicitário. Uso pontual pede locação: feiras, shows e eventos. A LUMENIX atende os dois caminhos com o mesmo padrão de instalação.",
   },
   {
-    q: "Qual o prazo de garantia da P1LED?",
+    q: "Qual o prazo de garantia da LUMENIX?",
     a: "Garantia exclusiva de até 6 anos (100.000 horas de uso), com compromisso em contrato de peças de reposição do mesmo lote durante todo o período.",
   },
   {
-    q: "A P1LED possui produtos a pronta entrega?",
+    q: "A LUMENIX possui produtos a pronta entrega?",
     a: "Sim. Todos os nossos modelos, do P1 ao P10, estão disponíveis a pronta entrega.",
   },
   {
@@ -34,7 +34,7 @@ const FAQS = [
   },
 ];
 
-/** Dúvidas frequentes — respostas oficiais da P1LED em acordeão animado. */
+/** Dúvidas frequentes — respostas oficiais da LUMENIX em acordeão animado. */
 export default function FAQ() {
   const [open, setOpen] = useState<number>(0);
 

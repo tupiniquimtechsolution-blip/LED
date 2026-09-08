@@ -3,7 +3,7 @@ import Marquee from "../components/Marquee";
 
 const SERVICES = ["Venda", "Locação", "Projeto sob medida", "Instalação própria", "DOOH", "Eventos", "P1PLAY", "Assistência técnica"];
 
-/** Letreiros de serviços + marcas atendidas (nomes públicos divulgados pela P1LED). */
+/** Letreiros de serviços + marcas atendidas (nomes públicos divulgados pela LUMENIX). */
 export default function MarqueeStrip() {
   return (
     <div className="relative z-10 border-y border-line bg-night-900/60">

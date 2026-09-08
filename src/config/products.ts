@@ -1,5 +1,5 @@
 /**
- * Linha de produtos P1LED — descrições baseadas no material oficial (p1led.com.br).
+ * Linha de produtos LUMENIX — do P1 ao P10, indoor e outdoor.
  * Regra oficial da marca: o número do painel indica a distância de leitura em metros.
  */
 export type ProductGroup = "indoor" | "outdoor";

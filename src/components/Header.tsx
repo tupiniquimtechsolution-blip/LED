@@ -54,7 +54,7 @@ export default function Header() {
         <div className="mx-auto flex h-[72px] max-w-[1400px] items-center justify-between px-5 sm:px-8">
           <button
             onClick={() => go("topo")}
-            aria-label="P1LED — voltar ao topo"
+            aria-label="LUMENIX — voltar ao topo"
             className="transition-transform duration-300 hover:scale-[1.04]"
           >
             <Logo />

@@ -23,9 +23,9 @@ const SCREENS = [
   },
   {
     img: assets.images.showroomFacade,
-    word: "P1LED",
-    copy: "Desde 2007, +8.000 painéis acesos pelo Brasil. Showroom nos Jardins, instalação no país inteiro.",
-    alt: "Showroom da P1LED iluminado à noite",
+    word: "LUMENIX",
+    copy: "Desde 2012, +5.200 painéis acesos pelo Brasil. Showroom na Paulista, instalação no país inteiro.",
+    alt: "Showroom da LUMENIX iluminado à noite",
   },
 ];
 

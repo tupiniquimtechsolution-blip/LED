@@ -7,7 +7,7 @@ export default function WhatsAppFloat({ message }: { message?: string }) {
       href={waLink(message ?? DEFAULT_WA_MESSAGE)}
       target="_blank"
       rel="noreferrer"
-      aria-label="Falar com a P1LED no WhatsApp"
+      aria-label="Falar com a LUMENIX no WhatsApp"
       className="group fixed bottom-5 right-5 z-[85] flex items-center gap-3 sm:bottom-7 sm:right-7"
     >
       <span className="pointer-events-none hidden translate-x-2 border border-line bg-night-900/95 px-3 py-2 font-mono text-[0.68rem] uppercase tracking-[0.18em] text-ink opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 md:block">

@@ -1,28 +1,26 @@
 /**
- * Tokens de design do site P1LED.
- * Paleta extraída do universo da marca: preto profundo de sala de exibição,
- * ciano de pixel aceso (volt) e âmbar de tungstênio/holofote (ember).
- * Espelhados em src/index.css (@theme do Tailwind v4).
+ * Tokens de design do site LUMENIX.
+ * Paleta: violeta elétrico + verde neon sobre preto profundo.
  */
 export const theme = {
   colors: {
-    night950: "#04070c",
-    night900: "#070c14",
-    night850: "#0a101b",
-    night800: "#0d1522",
-    night700: "#142032",
-    line: "#1b2839",
-    ink: "#eaf1f8",
-    dim: "#93a3b6",
-    faint: "#5d6d80",
-    volt300: "#8beaff",
-    volt400: "#3fdcff",
-    volt500: "#14c4ee",
-    volt600: "#0b9fc4",
-    ember300: "#ffd08a",
-    ember400: "#ffb44d",
-    ember500: "#f79b1e",
-    signal500: "#ff5468",
+    night950: "#05040a",
+    night900: "#0a0814",
+    night850: "#0e0b1c",
+    night800: "#130f26",
+    night700: "#1e1636",
+    line: "#2a1f47",
+    ink: "#f0ecff",
+    dim: "#a89fd4",
+    faint: "#6b5f99",
+    volt300: "#d4a8ff",
+    volt400: "#b366ff",
+    volt500: "#9933ff",
+    volt600: "#7a1fd9",
+    ember300: "#a8ffb8",
+    ember400: "#5cff7a",
+    ember500: "#2ee855",
+    signal500: "#ff3366",
   },
   fonts: {
     display: '"Unbounded", system-ui, sans-serif',

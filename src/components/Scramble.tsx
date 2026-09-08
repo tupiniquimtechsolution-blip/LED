@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ElementType } from "react";
 
-const GLYPHS = "▓▒░<>/#%&@P1LED01";
+const GLYPHS = "▓▒░<>/#%&@LUMENIX01";
 
 /**
  * Assinatura de movimento: o texto "decodifica" como um painel recebendo sinal —

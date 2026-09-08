@@ -6,7 +6,7 @@ import CountUp from "../components/CountUp";
 import Reveal from "../components/Reveal";
 import SectionTag from "../components/SectionTag";
 
-/** CONHEÇA A P1LED — showroom, números, mapa e presença nacional. */
+/** CONHEÇA A LUMENIX — showroom, números, mapa e presença nacional. */
 export default function Company() {
   const imgWrapRef = useRef<HTMLDivElement>(null);
 
@@ -42,7 +42,7 @@ export default function Company() {
               <img
                 data-company-img
                 src={assets.images.showroomFacade}
-                alt="Fachada do showroom P1LED nos Jardins, São Paulo, iluminada à noite"
+                alt="Fachada do showroom LUMENIX na Paulista, São Paulo, iluminada à noite"
                 loading="lazy"
                 className="img-led h-[116%] w-full object-cover"
               />
@@ -53,7 +53,7 @@ export default function Company() {
             <div className="img-led-wrap relative -mt-16 ml-auto aspect-[16/10] w-[62%] overflow-hidden border border-line shadow-[0_30px_60px_-20px_rgba(0,0,0,0.7)]">
               <img
                 src={assets.images.teamInstallation}
-                alt="Equipe técnica da P1LED instalando módulos de LED"
+                alt="Equipe técnica da LUMENIX instalando módulos de LED"
                 loading="lazy"
                 className="img-led h-full w-full object-cover"
               />
@@ -82,12 +82,12 @@ export default function Company() {
 
           {/* institucional */}
           <div className="flex flex-col justify-center">
-            <SectionTag index="07" label="Conheça a P1LED" />
+            <SectionTag index="07" label="Conheça a LUMENIX" />
             <h2 className="mt-5 font-display text-3xl font-extrabold uppercase leading-[1.02] tracking-tight text-ink sm:text-5xl">
               Showroom em São Paulo, <span className="text-volt-400">instalação no Brasil inteiro.</span>
             </h2>
             <p className="mt-6 leading-relaxed text-dim">
-              A P1LED é líder no segmento de painéis de LED indoor e outdoor. Trabalhamos com todos
+              A LUMENIX é referência no segmento de painéis de LED indoor e outdoor. Trabalhamos com todos
               os modelos a pronta entrega, do P1 ao P10, com serviço completo na compra e na
               locação: da elaboração do projeto à instalação e transmissão do conteúdo.
             </p>
@@ -159,17 +159,16 @@ export default function Company() {
         <Reveal className="mt-16">
           <div className="led-frame relative border border-line">
             <iframe
-              title="Mapa — showroom P1LED, Rua Estados Unidos, 2186, Jardins, São Paulo"
+              title="Mapa — showroom LUMENIX, Av. Paulista, 1578, Bela Vista, São Paulo"
               src={business.mapsEmbed}
               loading="lazy"
               className="map-dark h-[380px] w-full border-0"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
             />
-            <span className="pointer-events-none absolute left-4 top-4 z-10 border border-ink/15 bg-night-950/90 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.22em] text-volt-400">
-              ● Showroom P1LED — Jardins
-            </span>
-          </div>
+              <span className="pointer-events-none absolute left-4 top-4 z-10 border border-ink/15 bg-night-950/90 px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.22em] text-volt-400">
+                ● Showroom LUMENIX — Paulista
+              </span>          </div>
         </Reveal>
 
         {/* certificações */}

@@ -99,7 +99,7 @@ export default function Configurator() {
   const waMessage = useMemo(() => {
     const ambLabel = AMBIENTS.find((a) => a.id === ambient)!.label;
     return [
-      `Olá! Fiz uma simulação no site da P1LED e quero um orçamento:`,
+      `Olá! Fiz uma simulação no site da LUMENIX e quero um orçamento:`,
       `• Ambiente: ${ambLabel}`,
       `• Modelo: ${product.pitch} (${product.pitchMm} mm)`,
       `• Medidas: ${fmt(width)} × ${fmt(height)} m — área ${calc.area.toLocaleString("pt-BR", { maximumFractionDigits: 2 })} m²`,

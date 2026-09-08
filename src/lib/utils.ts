@@ -9,7 +9,7 @@ export const waLink = (message: string) =>
   `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(message)}`;
 
 export const DEFAULT_WA_MESSAGE =
-  "Olá! Vim pelo site da P1LED e quero um orçamento de painel de LED.";
+  "Olá! Vim pelo site da LUMENIX e quero um orçamento de painel de LED.";
 
 export function scrollToId(id: string) {
   const el = document.getElementById(id);

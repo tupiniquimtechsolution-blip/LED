@@ -44,7 +44,7 @@ export default function Process() {
           <Reveal delay={150}>
             <p className="max-w-xl text-sm leading-relaxed text-dim lg:justify-self-end">
               Cada instalação começa com uma pergunta: <em className="text-ink not-italic font-semibold">que experiência esse espaço precisa criar?</em>{" "}
-              Do projeto técnico à gestão do conteúdo, a solução completa está aqui — a P1LED cuida
+              Do projeto técnico à gestão do conteúdo, a solução completa está aqui — a LUMENIX cuida
               de tudo com excelência técnica pra você.
             </p>
           </Reveal>

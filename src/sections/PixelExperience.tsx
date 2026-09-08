@@ -224,7 +224,7 @@ export default function PixelExperience() {
 
               <p className="mt-8 max-w-md font-mono text-[0.62rem] uppercase leading-relaxed tracking-[0.16em] text-faint">
                 * Demonstração educacional de resolução — não representa a especificação de um
-                projeto específico da P1LED.
+                projeto específico da LUMENIX.
               </p>
             </div>
           </div>

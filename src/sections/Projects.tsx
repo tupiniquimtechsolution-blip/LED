@@ -54,7 +54,7 @@ export default function Projects() {
           <Reveal>
             <SectionTag index="05" label="Portfólio" />
             <h2 className="mt-5 font-display text-3xl font-extrabold uppercase tracking-tight text-ink sm:text-5xl">
-              Projetos <span className="text-volt-400">P1LED</span>
+              Projetos <span className="text-volt-400">LUMENIX</span>
             </h2>
           </Reveal>
           <div className="flex items-center gap-5">

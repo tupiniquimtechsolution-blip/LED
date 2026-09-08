@@ -19,7 +19,7 @@ export default function CasePage() {
 
   const next = nextProject(project.slug);
   const related = projects.filter((p) => p.slug !== project.slug).slice(0, 3);
-  const waMsg = `Olá! Vi o projeto "${project.title}" no site da P1LED e quero algo parecido para o meu espaço.`;
+  const waMsg = `Olá! Vi o projeto "${project.title}" no site da LUMENIX e quero algo parecido para o meu espaço.`;
 
   return (
     <article className="relative z-10 pt-[72px]">
@@ -109,7 +109,7 @@ export default function CasePage() {
 
           <p className="mt-6 font-mono text-[0.6rem] uppercase leading-relaxed tracking-[0.16em] text-faint">
             Fotografias representativas do tipo de instalação (TEMP_REPLACE_ME) — os registros
-            oficiais de cada case serão publicados com aprovação da P1LED.
+            oficiais de cada case serão publicados com aprovação da LUMENIX.
           </p>
         </div>
       </div>

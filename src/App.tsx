@@ -8,6 +8,7 @@ import Noise from "./components/Noise";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import Home from "./pages/Home";
 import CasePage from "./pages/CasePage";
+import Presentation from "./pages/Presentation";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projetos/:slug" element={<CasePage />} />
+            <Route path="/apresentacao" element={<Presentation />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </main>

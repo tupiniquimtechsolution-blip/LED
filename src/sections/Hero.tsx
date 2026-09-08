@@ -52,7 +52,7 @@ export default function Hero() {
         <div ref={bgRef} className="absolute -inset-y-[8%] inset-x-0 will-change-transform">
           <img
             src={assets.images.heroFacade}
-            alt="Fachada coberta por painel de LED à noite em São Paulo — instalação P1LED"
+            alt="Fachada coberta por painel de LED à noite em São Paulo — instalação LUMENIX"
             className="h-full w-full object-cover object-center"
             loading="eager"
             decoding="async"
@@ -68,7 +68,7 @@ export default function Hero() {
         <Reveal>
           <p className="flex flex-wrap items-center gap-3 font-mono text-[0.68rem] uppercase tracking-[0.3em] text-volt-400">
             <span className="inline-block h-2 w-2 rounded-full bg-ember-400 animate-pulse-dot" />
-            Desde 2007 · +8.000 painéis instalados · São Paulo → Brasil
+            Desde 2012 · +5.200 painéis instalados · São Paulo → Brasil
           </p>
         </Reveal>
 
@@ -88,9 +88,9 @@ export default function Hero() {
 
         <Reveal delay={300}>
           <p className="mt-7 max-w-xl text-base leading-relaxed text-dim sm:text-lg">
-            <strong className="font-semibold text-ink">O painel de LED certo muda tudo.</strong>{" "}
+            <strong className="font-semibold text-ink">Luz que transforma espaços em experiências.</strong>{" "}
             Venda e locação do P1 ao P10, com projeto sob medida, estrutura, instalação própria e
-            gestão de conteúdo — criamos o que você sente.
+            gestão de conteúdo — onde a luz encontra a tecnologia.
           </p>
         </Reveal>
 
@@ -105,10 +105,10 @@ export default function Hero() {
             Ver projetos
           </button>
           <a
-            href="tel:+551126262460"
+            href="tel:+551130458800"
             className="font-mono text-[0.72rem] uppercase tracking-[0.22em] text-faint underline-offset-4 transition-colors hover:text-volt-400 hover:underline"
           >
-            ou ligue (11) 2626-2460
+            ou ligue (11) 3045-8800
           </a>
         </Reveal>
 

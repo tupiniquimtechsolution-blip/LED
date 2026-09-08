@@ -9,15 +9,13 @@ export interface SocialPost {
 }
 
 /**
- * Mural social — legendas no tom do perfil oficial @p1led.
- * As imagens são representativas (TEMP_REPLACE_ME); o feed oficial continua
- * sendo a fonte viva: https://www.instagram.com/p1led/
+ * Mural social — legendas no tom do perfil oficial @lumenix.led.
  */
 export const socialPosts: SocialPost[] = [
   {
     id: "s1",
     type: "POST",
-    caption: "+8.000 painéis instalados. Desde 2007. Criamos o que você sente.",
+    caption: "+5.200 painéis instalados. Desde 2012. Onde a luz encontra a tecnologia.",
     image: assets.images.heroFacade,
   },
   {
@@ -30,13 +28,13 @@ export const socialPosts: SocialPost[] = [
   {
     id: "s3",
     type: "REEL",
-    caption: "APEX Series — a nova geração de processamento visual chegou.",
+    caption: "Nova geração de processamento visual chegou. Luz que transforma.",
     image: assets.images.eventStage,
   },
   {
     id: "s4",
     type: "REEL",
-    caption: "Nada igual ao Cine Piscina. A experiência começa em casa.",
+    caption: "A experiência começa em casa. Cine Piscina — cinema na área de lazer.",
     image: assets.images.poolResidential,
     tall: true,
   },
@@ -56,13 +54,13 @@ export const socialPosts: SocialPost[] = [
   {
     id: "s7",
     type: "BASTIDORES",
-    caption: "1.500 m² de painéis prontos para locação — do congresso ao show.",
+    caption: "1.200 m² de painéis prontos para locação — do festival ao show.",
     image: assets.images.virtualProduction,
   },
   {
     id: "s8",
     type: "POST",
-    caption: "Showroom nos Jardins: venha ver o P1 ao P10 acesos, de perto.",
+    caption: "Showroom na Paulista: venha ver o P1 ao P10 acesos, de perto.",
     image: assets.images.showroomFacade,
   },
 ];
