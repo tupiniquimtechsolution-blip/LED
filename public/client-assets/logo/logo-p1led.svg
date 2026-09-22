@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="P1LED">
+  <!-- Wordmark de trabalho — TEMP_REPLACE_ME: substituir pelo logo oficial em alta resolução -->
+  <rect width="220" height="64" fill="#04070c"/>
+  <!-- pixels de assinatura -->
+  <rect x="12" y="12" width="8" height="8" fill="#3fdcff"/>
+  <rect x="12" y="24" width="8" height="8" fill="#f79b1e"/>
+  <rect x="12" y="36" width="8" height="8" fill="#3fdcff" opacity="0.45"/>
+  <text x="32" y="42" font-family="'Unbounded', 'Archivo', sans-serif" font-weight="800" font-size="34" fill="#eaf1f8" letter-spacing="-1">P1</text>
+  <text x="92" y="42" font-family="'Unbounded', 'Archivo', sans-serif" font-weight="800" font-size="34" fill="#3fdcff" letter-spacing="-1">LED</text>
+  <rect x="196" y="14" width="7" height="7" fill="#f79b1e"/>
+  <text x="33" y="55" font-family="'JetBrains Mono', monospace" font-size="7.5" letter-spacing="4" fill="#5d6d80">PAINÉIS DE LED · DESDE 2007</text>
+</svg>

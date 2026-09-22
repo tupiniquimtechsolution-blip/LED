@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Site demonstrativo de portfólio — migração de rotas (hash → history) prevista para produção
+Sitemap: https://www.p1led.com.br/sitemap.xml
